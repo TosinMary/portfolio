@@ -1,0 +1,11 @@
+.feature-container{
+    
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:500px;
+}
+.project-image{
+    width: 300px;
+}
