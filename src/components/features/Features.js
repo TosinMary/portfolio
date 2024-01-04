@@ -1,52 +1,61 @@
 import React from 'react'
 import "./Features.css"
-import picture1 from "../../assets/picture 1.jpg"
-import picture2 from "../../assets/picture 2.jpg"
-import picture3 from "../../assets/picture 3.jpg"
-import picture4 from "../../assets/picture 4.jpg"
-import picture5 from "../../assets/picture 5.jpg"
-import picture6 from "../../assets/picture 6.jpg"
-import picture7 from "../../assets/picture 7.jpg"
-import picture8 from "../../assets/picture 8.jpg"
+import picture1 from "../../assets/dictionary.png"
+import picture2 from "../../assets/ecommerce.png"
+import picture3 from "../../assets/random-quote.png"
+import picture4 from "../../assets/Foodieloo.png"
 import { FaGit } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Features = () => {
   return (
     <div className='feature-container'>
          <section className='project-container'>
             <div className='project'>
-                <img src={picture5} className='project-image'></img>
+              <div className='img-container'>
+              <img src={picture1} className='project-image'></img>
+              </div>
                 <div className='project-summary'>
-                  <h4 className='project-title'>lorem1jbdask</h4>
+                  <h4 className='project-title'>WordFinder</h4>
                   <div className='project-icons'>
                     <FaGit />
+                    <a href='https://dictionary-app-pi-bay.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
             <div className='project'>
-                <img src={picture6} className='project-image'></img>
+            <div className='img-container'>
+              <img src={picture2} className='project-image'></img>
+              </div>
                 <div className='project-summary'>
-                  <h4 className='project-title'>loetfwajhHJ</h4>
+                  <h4 className='project-title'>Ecommerce</h4>
                   <div className='project-icons'>
                     <FaGit />
+                    <a href='https://brizbeauty-ecommerce.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
             <div className='project'>
-                <img src={picture7} className='project-image'></img>
+            <div className='img-container'>
+              <img src={picture3} className='project-image'></img>
+              </div>
                 <div className='project-summary'>
-                  <h4 className='project-title'>JHkjcblkblHQL</h4>
+                  <h4 className='project-title'>Quote Generator</h4>
                   <div className='project-icons'>
                     <FaGit />
+                    <a href='https://quote-generator-rho-blue.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
             <div className='project'>
-                <img src={picture8} className='project-image'></img>
+            <div className='img-container'>
+              <img src={picture4} className='project-image'></img>
+              </div>
                 <div className='project-summary'>
-                  <h4 className='project-title'>JHVAJBKBKbckl</h4>
+                  <h4 className='project-title'>FoodieLoo</h4>
                   <div className='project-icons'>
                     <FaGit />
+                    <a href='https://foodieloo-project-practise.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
