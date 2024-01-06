@@ -10,27 +10,28 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Features = () => {
   return (
     <div className='feature-container'>
+      <h3>Projects</h3>
          <section className='project-container'>
             <div className='project'>
-              <div className='img-container'>
-              <img src={picture1} className='project-image'></img>
-              </div>
+                <div className='img-container'>
+                  <img src={picture1} className='project-image'></img>
+                </div>
                 <div className='project-summary'>
                   <h4 className='project-title'>WordFinder</h4>
                   <div className='project-icons'>
-                    <FaGit />
+                    <a href='https://github.com/TosinMary/dictionary-app' target='_blank'><FaGit /></a>
                     <a href='https://dictionary-app-pi-bay.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
             <div className='project'>
-            <div className='img-container'>
-              <img src={picture2} className='project-image'></img>
-              </div>
+                <div className='img-container'>
+                  <img src={picture2} className='project-image'></img>
+                </div>
                 <div className='project-summary'>
                   <h4 className='project-title'>Ecommerce</h4>
                   <div className='project-icons'>
-                    <FaGit />
+                   <a href='https://github.com/TosinMary/brizbeauty-ecommerce' target='_blank'><FaGit /></a>
                     <a href='https://brizbeauty-ecommerce.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
@@ -42,7 +43,7 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>Quote Generator</h4>
                   <div className='project-icons'>
-                    <FaGit />
+                  <a href='https://github.com/TosinMary/Quote-Generator' target='_blank'><FaGit /></a>
                     <a href='https://quote-generator-rho-blue.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
@@ -54,7 +55,7 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>FoodieLoo</h4>
                   <div className='project-icons'>
-                    <FaGit />
+                  <a href='https://github.com/TosinMary/FoodieLoo-website-practise' target='_blank'><FaGit /></a>
                     <a href='https://foodieloo-project-practise.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
