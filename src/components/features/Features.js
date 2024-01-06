@@ -19,8 +19,8 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>WordFinder</h4>
                   <div className='project-icons'>
-                    <a href='https://github.com/TosinMary/dictionary-app' target='_blank'><FaGit /></a>
-                    <a href='https://dictionary-app-pi-bay.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
+                    <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a>
+                    <a href='https://dictionary-app-pi-bay.vercel.app/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
@@ -31,8 +31,8 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>Ecommerce</h4>
                   <div className='project-icons'>
-                   <a href='https://github.com/TosinMary/brizbeauty-ecommerce' target='_blank'><FaGit /></a>
-                    <a href='https://brizbeauty-ecommerce.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
+                  <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a>
+                    <a href='https://dictionary-app-pi-bay.vercel.app/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
@@ -43,8 +43,8 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>Quote Generator</h4>
                   <div className='project-icons'>
-                  <a href='https://github.com/TosinMary/Quote-Generator' target='_blank'><FaGit /></a>
-                    <a href='https://quote-generator-rho-blue.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
+                  <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a>
+                    <a href='https://dictionary-app-pi-bay.vercel.app/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@ const Features = () => {
                 <div className='project-summary'>
                   <h4 className='project-title'>FoodieLoo</h4>
                   <div className='project-icons'>
-                  <a href='https://github.com/TosinMary/FoodieLoo-website-practise' target='_blank'><FaGit /></a>
-                    <a href='https://foodieloo-project-practise.vercel.app/' target='_blank'><FaExternalLinkAlt /></a>
+                  <a href='https://github.com/TosinMary/dictionary-app' className='project-icon' target='_blank'><FaGit /></a>
+                    <a href='https://dictionary-app-pi-bay.vercel.app/'className='project-icon' target='_blank'><FaExternalLinkAlt /></a>
                   </div>
                 </div>
             </div>
